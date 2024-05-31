@@ -1,12 +1,18 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+ //Importacion de React
+//Importa el componente 'Link' de 'r-r-d'
+import React from 'react'; 
+import { Link } from 'react-router-dom'; 
 
-const Header = () => (
-  <header>
-    <h1>My Blog</h1>
-    <nav>
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
+//Definicion del componente 'Header'
+//Desde que se abren los parentesis hasta que cierran
+//es el JSX que representa el Contenido del Header 
+//JSX es una sintaxis que permite escribir elementos HTML dentro del codigo JS
+const Header = () => (    
+  <header>                
+    <h1>E-Blog</h1>       
+    <nav>                 
+      <Link to="/">Inicio</Link>
+      <Link to="/about">Que es?</Link>
     </nav>
   </header>
 );
