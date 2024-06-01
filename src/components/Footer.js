@@ -1,9 +1,13 @@
-import React from 'react';  //Importamos la bibloteca React.
+//Importamos la bibloteca React.
+import React from 'react';
 
-const Footer = () => (  //Definicion de una constante 'Footer' que es un componente funcional.
+//Definicion de una constante 'Footer' que es un componente funcional, apartir
+//de los parantesis es el JSX que Represanta el Contenido del Footer.
+const Footer = () => (
   <footer>
-    <p>testo de abajo</p>  //JSX que Represanta el Contenido del Footer.
+    <p>TEXTO de abajo</p>
   </footer>
 );
 
-export default Footer;  //Exporta el componente para uso en otras partes de la aplicacion.
+//Exporta el componente para uso en otras partes de la aplicacion.
+export default Footer;

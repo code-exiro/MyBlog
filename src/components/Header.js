@@ -1,5 +1,5 @@
- //Importacion de React
-//Importa el componente 'Link' de 'r-r-d'
+//Importacion de React
+//Importa el componente "Link" de "r-r-d"
 import React from 'react'; 
 import { Link } from 'react-router-dom'; 
 
@@ -17,4 +17,5 @@ const Header = () => (
   </header>
 );
 
+//Exporta el componente para uso en otras partes de la aplicacion.
 export default Header;
