@@ -1,3 +1,6 @@
+//PostList.js es un componente que renderiza una lista de posts, Este se utilizara
+//dentro del componente "Home" para mostrar la lista de todos los posts disponibles
+
 //importamos la biblioteca React
 //importamos el componente Post
 import React from 'react';

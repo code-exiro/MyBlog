@@ -1,3 +1,6 @@
+//"Post" es un componente que representa un unico post. Este componente es utilizado
+//dentro de PostList para renderizar cada post individualmente
+
 //Importacion de la biblioteca React
 //Importacion de "Link" desde "r-r-d"
 import React from 'react';
@@ -12,7 +15,7 @@ import { Link } from 'react-router-dom';
 const Post = ({ id, title, content }) => (
   <article>
     <h2><Link to={`/post/${id}`}>{title}</Link></h2>
-    <p>{content.substring(0, 100)}...</p>
+    <p>{content.substring(0, 100)}</p>
     <Link to={`/post/${id}`}>Leer mas</Link>
   </article>
 );

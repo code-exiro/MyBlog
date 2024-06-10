@@ -1,5 +1,7 @@
-//Importacion de React
-//Importa el componente "Link" de "r-r-d"
+//Importamos React
+//Importamos el componente "Link" de "r-r-d"
+//IMPORTANTE: "r-r-d" es una biblioteca de enrutamiento de aplicaciones React
+//que permite gestionar y definir las rutas de una aplicacion react 
 import React from 'react'; 
 import { Link } from 'react-router-dom'; 
 
